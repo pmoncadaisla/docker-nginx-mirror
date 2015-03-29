@@ -3,7 +3,7 @@
 BASENAME_FILE=$(basename $URL_FILE)
 NGINX_HOME=/usr/share/nginx/html
 
-wget $URL_FILE -o  $NGINX_HOME/$BASENAME_FILE
+wget $URL_FILE -O $NGINX_HOME/$BASENAME_FILE
 
 nginx
 
